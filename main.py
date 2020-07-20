@@ -31,7 +31,7 @@ def create(path, project_name):
         click.echo('%s template not found' % scaffolding, err=True)
         return
     project_dir = os.path.join(path, project_name)
-    print('project dir is',project_dir)
+    print('project dir is', project_dir)
     sh.mkdir('-p', project_dir)
     sh.cp('-rf', os.path.join(HERE, f'flask_scaffolding/scaffoldings/{scaffolding}/'), project_dir)
     for f in sh.find(project_dir, '-name', '*.py'):
