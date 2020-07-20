@@ -1,0 +1,16 @@
+Flask
+flask-mongoengine
+Flask-SQLAlchemy
+Flask-Migrate
+gunicorn
+sqlalchemy
+
+click
+shortuuid
+pycrypto
+celery
+jwt
+pandas
+tablib==0.13.0
+requests
+etcd3
