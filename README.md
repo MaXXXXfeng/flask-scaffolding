@@ -81,7 +81,7 @@ etcd.put(key, value)
 
 同时，在```project/handlers/main.py```中内置了几个简单的api接口
 
-### 项目启动
+## 项目启动
 
 项目启动支持flask启动方式和gunicorn启动方式
 
@@ -95,7 +95,7 @@ gunicorn -c gunicorn_conf_docker.py wsgi:app
 
 
 
-### Docker
+## Docker
 
 项目对应的dockerfile集中在docker文件夹内，可以根据个人需求创建和拉取镜像。
 
