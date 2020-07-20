@@ -4,7 +4,7 @@
 ## 用法
 
 ```
-git clone xxxxx
+git clone https://github.com/MaXXXXfeng/flask-scaffolding.git
 cd flask-scaffolding
 ```
 
